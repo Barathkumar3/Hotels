@@ -1,0 +1,63 @@
+html,body{
+  height: 100%;
+  background-image: url('https://www.hotelwhitelisboa.com/media/white-lisboa-bannersuperior-02-b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+  input[type=text]{
+    height: 200%;
+  width: 100%;
+  padding: 12px;
+ 
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  resize: vertical;
+}
+input[type=date]{
+  height: 200%;
+  width: 100%;
+  padding: 12px;
+
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+input[type=text]:focus,input[type=date] :focus {
+  background-color: rgb(49, 202, 212);
+  outline: none;
+}
+  .custom-select{
+    height: 200%;
+    width: 100%;
+    padding: 12px;
+  
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    resize: vertical;
+  }
+
+  
+
+
+
+.Confirmbtn{
+  background-color: #3fdf6ff8;
+  height: 200%;
+  width: 10%;
+  padding: 12px;
+
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  resize: vertical;
+}
