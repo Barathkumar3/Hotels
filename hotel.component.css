@@ -1,63 +1,40 @@
-html,body{
+body {
   height: 100%;
   background-image: url('https://www.hotelwhitelisboa.com/media/white-lisboa-bannersuperior-02-b.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
+* {box-sizing: border-box;}
 
-
-  input[type=text]{
-    height: 200%;
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
- 
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 15px;
-  margin-bottom: 25px;
   resize: vertical;
 }
-input[type=date]{
-  height: 200%;
-  width: 100%;
-  padding: 12px;
 
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 15px;
-  margin-bottom: 25px;
+input[type=button] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=text]:focus,input[type=date] :focus {
-  background-color: rgb(49, 202, 212);
-  outline: none;
-}
-  .custom-select{
-    height: 200%;
-    width: 100%;
-    padding: 12px;
-  
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    resize: vertical;
+.container {
+    border-radius: 5px;
+    padding: 10px;
   }
 
-  
-
-
-
-.Confirmbtn{
-  background-color: #3fdf6ff8;
-  height: 200%;
-  width: 10%;
-  padding: 12px;
-
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  resize: vertical;
+button{
+    text-align-last: center;
+}
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
