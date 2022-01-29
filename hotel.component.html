@@ -1,91 +1,80 @@
 <html>
 
 <body>
-    <style>
-        h1 {text-align: center;}
-        
-        </style>
-  
-             
-    <h1>Make your reservation</h1>
-                
 
-        <form  >
+    <h1>Make Your Reservation</h1>
+
+    <div class="container">
+        <form action="/action_page.php">
             
-            <div class="container">
-                <tr>
                     <label for="name" ><b>Name</b></label>
                     <input type="text" placeholder="Enter Name" name="email" required>
-                </tr>
-
-                <tr>
+              
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter Email" name="email" required>
-                </tr>
-                <tr>
-                    
-                    <label for="city"><b> City </b> </label>
-                    <div class="input-grp">
-                    <select class="custom-select">
-                        <option >Select</option>
-                        <option>Chennai</option>
-                        <option>Goa</option>
-                        <option>Mumbai</option>
-                        <option>New Delhi</option>
-                    </select>
-                    </div>
-                </tr>
-                <tr>
-                    <label for="check In"><b>Check In</b></label>
-                    <input type="date" placeholder="dd/mm/yyyy" name="check In" required>
-                </tr>
+             
 
-                <tr>
-                    <b>Check Out</b>
-                    <input type="date" placeholder="dd/mm/yyyy" name="check Out" required>
-                </tr>
+            <label for="city">CITY</label>
+            <select name="city">
+                <option>select..</option>
+                <option>GOA</option>
+                <option>Mumbai</option>
+                <option>New Delhi</option>
+                <option>Bengluru</option>
+                <option>Jaipur</option>
+                <option>GOHATI</option>
+                <option>KOLATA</option>
+                <option>SRINAGAR</option>
+                <option>LUCKNOW</option>
+                <option>CHENNAI</option>
+            </select><br><br>
 
-                <tr>
-                    
-                    <label for="Select Hotels"><b>Select Hotels</b> </label>
-                    <div class="input-grp">
-                    <select class="custom-select">
-                        <option >Select</option>
-                        <option >Hotel Parc Estique</option>
-                        <option >Fairfield by Marriott Pune Kharadi</option>
-                        <option >Royal Orchid Central, Pune</option>
-                    </select>
-                    </div>
+            <label for="cidate">CHECK-IN</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter Departure Date" name=t1 required><br>
 
-                </tr>
-                <tr>
-                    <label for="No of Rooms"><b> No of Rooms </b> </label>
-                    <div class="input-grp">
-                    <select class="custom-select">
-                        <option >Select</option>
-                        <option >1</option>
-                        <option >2</option>
-                        <option >3</option>
-                    </select>
-                    </div>
-                </tr>
-                <tr>
-                    <label><b> No of Adults </b> </label>
-                    <div class="input-grp">
-                    <select class="custom-select">
-                        <option >Select</option>
-                        <option >1</option>
-                        <option >2</option>
-                        <option >3</option>
-                    </select>
-                    </div>
-                </tr>
-            </div>
+            <label for="codate">CHECK-OUT</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter Return Date" name=t1 required><br>
 
-            <div class="clearfix">
-                <button type="submit" class="Confirmbtn">Confirm</button>
-            </div>
+            <label for="travelers">Select Hotels</label>
+            <select name="travelers">
+                <option>select..</option>
+                <option>Hotel Parc Estique</option>
+                <option>Fairfield by Marriott Pune Kharadi</option>
+                <option>Royal Orchid Central, Pune</option>
+            </select><br><br>
+            <label for="No of rooms">No of rooms</label>
+            <select name="travelers">
+                <option>select..</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br><br>
 
+            <label for="children">CHILDREN'S</label>
+            <select name="travelers">
+                <option>select..</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br><br>
+            <label for="Adults">Adults</label>
+            <select name="travelers">
+                <option>select..</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br><br>
+
+         
         </form>
-        </body>
-        </html>
+        <input type="button" value="CONFIRM" text-align="center">
+    </div>
+
+</body>
+</html>
